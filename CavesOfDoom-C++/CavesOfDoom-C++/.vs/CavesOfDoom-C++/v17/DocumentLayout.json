@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Fase\\Fase1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Fase\\Fase1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\headers\\Gerenciador\\GerenciadorEstado.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:headers\\Gerenciador\\GerenciadorEstado.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEstado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Gerenciador\\GerenciadorEstado.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaEntidade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Lista\\ListaEntidade.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaObservador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Lista\\ListaObservador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\ObservadorMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Observador\\ObservadorMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\Observador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Observador\\Observador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEvento.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Gerenciador\\GerenciadorEvento.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Estado\\EstadoMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Estado\\EstadoMenu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Menu\\MenuJogador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{02935575-D46B-4B39-8751-477B649EA742}|CavesOfDoom-C\u002B\u002B.vcxproj|solutionrelative:source\\Menu\\MenuJogador.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GerenciadorEstado.hpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\headers\\Gerenciador\\GerenciadorEstado.hpp",
+              "RelativeDocumentMoniker": "headers\\Gerenciador\\GerenciadorEstado.hpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\headers\\Gerenciador\\GerenciadorEstado.hpp",
+              "RelativeToolTip": "headers\\Gerenciador\\GerenciadorEstado.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-08T21:07:58.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListaEntidade.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaEntidade.cpp",
+              "RelativeDocumentMoniker": "source\\Lista\\ListaEntidade.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaEntidade.cpp",
+              "RelativeToolTip": "source\\Lista\\ListaEntidade.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T21:06:56.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fase1.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Fase\\Fase1.cpp",
+              "RelativeDocumentMoniker": "source\\Fase\\Fase1.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Fase\\Fase1.cpp",
+              "RelativeToolTip": "source\\Fase\\Fase1.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T20:48:15.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListaObservador.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaObservador.cpp",
+              "RelativeDocumentMoniker": "source\\Lista\\ListaObservador.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Lista\\ListaObservador.cpp",
+              "RelativeToolTip": "source\\Lista\\ListaObservador.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:32:54.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EstadoMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Estado\\EstadoMenu.cpp",
+              "RelativeDocumentMoniker": "source\\Estado\\EstadoMenu.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Estado\\EstadoMenu.cpp",
+              "RelativeToolTip": "source\\Estado\\EstadoMenu.cpp",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAiwGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:14:45.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GerenciadorEstado.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEstado.cpp",
+              "RelativeDocumentMoniker": "source\\Gerenciador\\GerenciadorEstado.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEstado.cpp",
+              "RelativeToolTip": "source\\Gerenciador\\GerenciadorEstado.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:14:39.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GerenciadorEvento.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEvento.cpp",
+              "RelativeDocumentMoniker": "source\\Gerenciador\\GerenciadorEvento.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Gerenciador\\GerenciadorEvento.cpp",
+              "RelativeToolTip": "source\\Gerenciador\\GerenciadorEvento.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:13:08.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Observador.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\Observador.cpp",
+              "RelativeDocumentMoniker": "source\\Observador\\Observador.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\Observador.cpp",
+              "RelativeToolTip": "source\\Observador\\Observador.cpp",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAE4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:13:00.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ObservadorMenu.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\ObservadorMenu.cpp",
+              "RelativeDocumentMoniker": "source\\Observador\\ObservadorMenu.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Observador\\ObservadorMenu.cpp",
+              "RelativeToolTip": "source\\Observador\\ObservadorMenu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:12:58.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuJogador.cpp",
+              "DocumentMoniker": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Menu\\MenuJogador.cpp",
+              "RelativeDocumentMoniker": "source\\Menu\\MenuJogador.cpp",
+              "ToolTip": "C:\\Users\\Lucas Schaefer\\Documents\\Tecnicas de Programacao\\CavesOfDoom-C\u002B\u002B\\CavesOfDoom-C\u002B\u002B\\source\\Menu\\MenuJogador.cpp",
+              "RelativeToolTip": "source\\Menu\\MenuJogador.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T19:12:55.3Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
