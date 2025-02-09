@@ -30,7 +30,6 @@ namespace Entidades {
             class Jogador : public Personagem {
             private:
                 bool noChao;
-                bool colidindoPorta;
                 bool abrirPorta;
                 Observador::ObservadorJogador* observadorJogador;
                 sf::RectangleShape tuboBarraVida;
@@ -55,10 +54,6 @@ namespace Entidades {
                 void colisao(Entidade* outraEntidade, sf::Vector2f ds = sf::Vector2f(0.0f, 0.0f));
                 const bool getNoChao() const;
                 const bool getAndando() const;
-                void setColidindoPorta(const bool colidindoPorta);
-                const bool getColidindoPorta() const;
-                void setAbrirPorta(const bool abrirPorta);
-                const bool getAbrirPorta() const;
                 void pular();
                 void podePular();
                 void mudarEstadoObservador();

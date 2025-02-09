@@ -307,21 +307,6 @@ namespace Entidades {
                 return andando;
             }
 
-            void Jogador::setColidindoPorta(const bool colidindoPorta) {
-                this->colidindoPorta = colidindoPorta;
-            }
-
-            const bool Jogador::getColidindoPorta() const {
-                return colidindoPorta;
-            }
-
-            void Jogador::setAbrirPorta(const bool abrirPorta) {
-                this->abrirPorta = abrirPorta;
-            }
-
-            const bool Jogador::getAbrirPorta() const {
-                return abrirPorta;
-            }
 
             void Jogador::podePular() {
                 noChao = true;
@@ -353,8 +338,6 @@ namespace Entidades {
             const std::string Jogador::salvar() {
                 std::string linha = salvarPersonagem();
                 linha += std::to_string(noChao) + ' ';
-                linha += std::to_string(colidindoPorta) + ' ';
-                linha += std::to_string(abrirPorta) + ' ';
                 linha += animacao.getImgAtual() + ' ';
                 linha += std::to_string(animacao.getQuadroAtual()) + ' ';
                 linha += std::to_string(animacao.getTempoTotal()) + ' ';
