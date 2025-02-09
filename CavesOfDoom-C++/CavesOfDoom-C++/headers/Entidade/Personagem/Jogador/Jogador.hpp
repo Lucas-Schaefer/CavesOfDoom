@@ -30,7 +30,6 @@ namespace Entidades {
             class Jogador : public Personagem {
             private:
                 bool noChao;
-                bool abrirPorta;
                 Observador::ObservadorJogador* observadorJogador;
                 sf::RectangleShape tuboBarraVida;
                 sf::RectangleShape tuboBarraXP;
