@@ -17,7 +17,8 @@ namespace Entidades {
             Jogador::Jogador(const sf::Vector2f pos, Item::Arma* arma) :
                 Personagem(pos, sf::Vector2f(TAMANHO_JOGADOR_X, TAMANHO_JOGADOR_Y), VELOCIDADE_JOGADOR, IDs::IDs::jogador, TEMPO_JOGADOR_MORRER, TEMPO_JOGADOR_TOMARDANO),
                 noChao(false), observadorJogador(new Observador::ObservadorJogador(this)),
-                textoExp(pGrafico->carregarFonte("fonte/menuColocacao.ttf"), "", 20)
+                textoExp(pGrafico->carregarFonte("fonte/menuColocacao.ttf"), "", 20),
+                jogador2(false)
             {
                 this->pontos = 0;
                 if (observadorJogador == nullptr) {
@@ -158,14 +159,26 @@ namespace Entidades {
 
 
             void Jogador::inicializarAnimacao() {
-                const sf::Vector2f origin = sf::Vector2f(tam.x / 2.5f, tam.y / 2.1f);
-                animacao.addAnimacao("imagens/Jogador/RunJogador.png", "ANDA", 10, 0.12f, sf::Vector2f(6, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/AttackJogador.png", "ATACA", 10, 0.065f, sf::Vector2f(6, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/StoppedJogador.png", "PARADO", 10, 0.15f, sf::Vector2f(6, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/JumpJogador.png", "PULA", 3, 0.15f, sf::Vector2f(6, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/FallJogador.png", "CAI", 3, 0.15f, sf::Vector2f(6, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/DeathJogador.png", "MORRE", 10, 0.10f, sf::Vector2f(5, 2), origin);
-                animacao.addAnimacao("imagens/Jogador/HitJogador.png", "TOMADANO", 1, 0.5f, sf::Vector2f(6, 2), origin);
+                if (jogador2==true) {
+                    const sf::Vector2f origin = sf::Vector2f(tam.x / 2.5f, tam.y / 2.1f);
+                    animacao.addAnimacao("imagens/Jogador/RunJogador2.png", "ANDA", 10, 0.12f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/AttackJogador2.png", "ATACA", 10, 0.065f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/StoppedJogador2.png", "PARADO", 10, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/JumpJogador2.png", "PULA", 3, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/FallJogador2.png", "CAI", 3, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/DeathJogador2.png", "MORRE", 10, 0.10f, sf::Vector2f(5, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/HitJogador2.png", "TOMADANO", 1, 0.5f, sf::Vector2f(6, 2), origin);
+                }
+                else {
+                    const sf::Vector2f origin = sf::Vector2f(tam.x / 2.5f, tam.y / 2.1f);
+                    animacao.addAnimacao("imagens/Jogador/RunJogador.png", "ANDA", 10, 0.12f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/AttackJogador.png", "ATACA", 10, 0.065f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/StoppedJogador.png", "PARADO", 10, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/JumpJogador.png", "PULA", 3, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/FallJogador.png", "CAI", 3, 0.15f, sf::Vector2f(6, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/DeathJogador.png", "MORRE", 10, 0.10f, sf::Vector2f(5, 2), origin);
+                    animacao.addAnimacao("imagens/Jogador/HitJogador.png", "TOMADANO", 1, 0.5f, sf::Vector2f(6, 2), origin);
+                }
             }
 
             void Jogador::atualizarBarraVida() {
@@ -353,6 +366,16 @@ namespace Entidades {
                 pGrafico->desenhaElemento(tuboBarraXP);
                 pGrafico->desenhaElemento(barraXP);
                 pGrafico->desenhaElemento(textoExp.getTexto());
+            }
+
+            void Jogador::setJogador2(bool jog2)
+            {
+            	jogador2 = jog2;
+            }
+            
+            bool Jogador::getJogador2()
+            {
+                return jogador2;
             }
 
             void Jogador::atualizar() {
