@@ -15,37 +15,59 @@ namespace Observador {
 
 
     void ObservadorJogador::teclaPressionada(const sf::Keyboard::Key tecla) {
-        if (!pJogador->getMorrer()) {
-            if (teclado[tecla] == 'a') {
-                pJogador->andar(true);
-            }
-            else if (teclado[tecla] == 'd') {
-                pJogador->andar(false);
-            }
-            else if (teclado[tecla] == 'w') {
-                pJogador->pular();
-            }
-            else if (teclado[tecla] == 's') {
-                if (pJogador->getNoChao() && !pJogador->getAndando()) {
-                    pJogador->atacar(true);
+        if (pJogador->getJogador2()) {
+        	if (teclado[tecla] == 'j') {
+        		pJogador->andar(true);
+        	}
+        	else if (teclado[tecla] == 'l') {
+        		pJogador->andar(false);
+        	}
+        	else if (teclado[tecla] == 'i') {
+        		pJogador->pular();
+        	}
+        	else if (teclado[tecla] == 'k') {
+        		if (pJogador->getNoChao() && !pJogador->getAndando()) {
+        			pJogador->atacar(true);
+        		}
+        	}
+        }
+        else {
+            if (!pJogador->getMorrer()) {
+                if (teclado[tecla] == 'a') {
+                    pJogador->andar(true);
                 }
-            }
-            else if (teclado[tecla] == 'k') {
-                pJogador->setAbrirPorta(true);
+                else if (teclado[tecla] == 'd') {
+                    pJogador->andar(false);
+                }
+                else if (teclado[tecla] == 'w') {
+                    pJogador->pular();
+                }
+                else if (teclado[tecla] == 's') {
+                    if (pJogador->getNoChao() && !pJogador->getAndando()) {
+                        pJogador->atacar(true);
+                    }
+                }
             }
         }
     }
 
     void ObservadorJogador::teclaSolta(const sf::Keyboard::Key tecla) {
-        if (!pJogador->getMorrer()) {
-            if (teclado[tecla] == 'a' || teclado[tecla] == 'd') {
-                pJogador->parar();
-            }
-            else if (teclado[tecla] == 'w' || teclado[tecla] == 's') {
-                pJogador->atacar(false);
-            }
-            else if (teclado[tecla] == 'k') {
-                pJogador->setAbrirPorta(false);
+        if (pJogador->getJogador2()) {
+        	if (teclado[tecla] == 'j' || teclado[tecla] == 'l') {
+        		pJogador->parar();
+        	}
+        	else if (teclado[tecla] == 'i' || teclado[tecla] == 'k') {
+        		pJogador->atacar(false);
+        	}
+        }
+        else {
+            if (!pJogador->getMorrer()) {
+                if (teclado[tecla] == 'a' || teclado[tecla] == 'd') {
+                    pJogador->parar();
+                }
+                else if (teclado[tecla] == 'w' || teclado[tecla] == 's') {
+                    pJogador->atacar(false);
+                }
             }
         }
     }
