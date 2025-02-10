@@ -29,6 +29,7 @@ namespace Entidades {
 
             class Jogador : public Personagem {
             private:
+                bool jogador2;
                 bool noChao;
                 Observador::ObservadorJogador* observadorJogador;
                 sf::RectangleShape tuboBarraVida;
@@ -62,6 +63,8 @@ namespace Entidades {
                 const std::string salvar();
                 void atualizar();
                 void desenhar();
+                void setJogador2(bool jog2);
+                bool getJogador2();
             };
 
         }
