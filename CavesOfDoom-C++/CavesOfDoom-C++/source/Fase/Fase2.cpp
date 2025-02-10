@@ -6,7 +6,8 @@ namespace Fase {
     Fase2::Fase2(const std::vector<std::string> vectorEntidades, const std::vector<std::string> vectorInfoFase, const IDs::IDs ID) :
         Fase(IDs::IDs::fase_fase2, IDs::IDs::fundo_fase2)
     {
-
+	criarFundo();
+	recuperarJogada(vectorEntidades, vectorInfoFase);
     }
 
 	Fase2::Fase2(const IDs::IDs ID) :
