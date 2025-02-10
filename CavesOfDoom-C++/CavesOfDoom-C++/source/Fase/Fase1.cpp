@@ -140,7 +140,7 @@ namespace Fase {
         pGrafico->setLimiteCamera(limiteCamera);
 
         criarPlataforma(sf::Vector2f(-550.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
-        //ch„o
+        //ch√£o
         for (int i = -1; i < 11; i++) {
             criarPlataforma(sf::Vector2f(i * 500.0f, 550.0f), sf::Vector2f(500.0f, 50.0f), "padrao");
         }
@@ -170,17 +170,18 @@ namespace Fase {
         criarEspinho(sf::Vector2f(1480.0f, 175.0f), sf::Vector2f(80.0f, 25.0f));
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(1700.0f, 100.0f), 4);
         criarCaixa(sf::Vector2f(2200.0f, 500.0f));
+        criarPersonagem(IDs::IDs::Orc, sf::Vector2f(1900.0f, 450.0f), 1);
 
         criarPlataforma(sf::Vector2f(2300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2500.0f, 300.0f), 5);
         criarPlataforma(sf::Vector2f(2600.0f, 400.0f), sf::Vector2f(80.0f, 50.0f), 300.0f, true);
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
-
+        
         criarPlataforma(sf::Vector2f(2980.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
         criarPlataforma(sf::Vector2f(3300.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3650.0f, 200.0f), 3);
-        criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 1);
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3800.0f, 450.0f), 3);
+        criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 4);
+        criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 2);
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3800.0f, 100.0f), 4);
         criarPlataforma(sf::Vector2f(3400.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, true);
         criarPlataforma(sf::Vector2f(3700.0f, 200.0f), sf::Vector2f(350.0f, 50.0f), "flutuante_maior", sf::Vector2f(1.0f, 1.2f));
