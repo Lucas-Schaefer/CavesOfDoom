@@ -40,14 +40,14 @@ namespace Observador {
 
             case (IDs::IDs::botao_1_jogador):
             {
-                //fase->setDoisJogadores(false);
+                fase->setDoisJogadores(false);
                 pGEstado->addEstado(IDs::IDs::estado_menu_selecaoFase);
                 pGEstado->addEstado(IDs::IDs::estado_menu_colocacao);
             }
             break;
             case (IDs::IDs::botao_2_jogadores):
             {
-               // fase->setDoisJogadores(true);
+               fase->setDoisJogadores(true);
                 pGEstado->addEstado(IDs::IDs::estado_menu_selecaoFase);
                 pGEstado->addEstado(IDs::IDs::estado_menu_colocacao);
             }
