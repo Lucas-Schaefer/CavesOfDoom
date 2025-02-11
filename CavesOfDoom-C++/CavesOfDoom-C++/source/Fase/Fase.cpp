@@ -164,23 +164,6 @@ namespace Fase {
                 std::cout << "ERRO::Fase o ponteiro do jogador eh nullptr" << std::endl;
                 exit(1);
             }
-            if (ID == IDs::IDs::Jogador2) {
-            	if (jogador2) {
-                    Item::Arma* espadaJogador2 = new Item::Arma(IDs::IDs::espada_jogador);
-                    if (espadaJogador2 == nullptr) {
-                        std::cout << "Fase::nao foi possivel criar espada do jogador2" << std::endl;
-                        exit(1);
-                    }
-            		Player::Jogador* pJogador2 = new Player::Jogador(pos, espadaJogador2);
-            		if (pJogador2 == nullptr) {
-            			std::cout << "Fase::nao foi possivel criar jogador2" << std::endl;
-            			exit(1);
-            		}
-            		personagem = static_cast<Entidades::Entidade*>(pJogador2);
-                    arma = static_cast<Entidades::Entidade*>(espadaJogador2);
-            	}
-            }
-            else
             if (ID == IDs::IDs::Lobo) {
                 Inimigos::Lobo* Lobo = new Inimigos::Lobo(pos, nivel, pJogador);
                 if (Lobo == nullptr) {
@@ -427,7 +410,7 @@ namespace Fase {
     }
 
     void Fase::atualizarTempo() {
-        //atualiza posiÃ§Ã£o e o tempo
+        //atualiza posição e o tempo
         tempo += pGrafico->getTempo();
         if (tempo >= 1.0f) {
             tempo = 0.0f;
@@ -523,7 +506,7 @@ namespace Fase {
             atualizarTempo();
             atualizarPontuacao();
 
-            //verifica colisÃ£o
+            //verifica colisão
             pColisao->executar();
         }
         else {
