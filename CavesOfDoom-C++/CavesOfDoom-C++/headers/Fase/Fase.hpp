@@ -63,6 +63,7 @@ namespace Fase {
         Fase(const IDs::IDs ID_Fase, const IDs::IDs ID_Fundo);
         ~Fase();
         void setDoisJogadores(bool dJ);
+		void getJogador2();
         virtual void criarFundo() = 0;
         virtual void criarMapa(const IDs::IDs ID_Mapa) = 0;
         Player::Jogador* getJogador();
