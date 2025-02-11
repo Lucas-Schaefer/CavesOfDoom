@@ -88,7 +88,9 @@ namespace Fase {
     void Fase::setDoisJogadores(bool dJ) {
         this->jogador2 = dJ;
     }
-
+	void Fase::getJogador2() {
+		return jogador2;
+	}
     void Fase::criarPlataforma(const sf::Vector2f pos, const sf::Vector2f tam, const std::string type, const sf::Vector2f escala) {
         Obstaculo::Plataforma* plataforma = new Obstaculo::Plataforma(IDs::IDs::plataforma, pos, tam, type);
         if (plataforma == nullptr) {
@@ -514,7 +516,5 @@ namespace Fase {
             pJogador = nullptr;
         }
     }
-
-}
 
 }
