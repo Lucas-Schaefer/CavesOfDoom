@@ -1,16 +1,12 @@
 #pragma once
 
-//Classe Base
+
 #include "../Ente.hpp"
 
-//Fundo efeito Parallax
 #include "../Fundo/Fundo.hpp"
 
-//Gerenciadores
 #include "../Gerenciador/GerenciadorColisao.hpp"
 #include "../Gerenciador/GerenciadorArquivo.hpp"
-
-//Listas
 #include "../Lista/ListaEntidade.hpp"
 
 #include "../Entidade/Personagem/Inimigo/Orc.hpp"
@@ -28,7 +24,6 @@
 
 #include <fstream>
 
-//#define CAMINHO_FONTE_FASE "../../imagens/Fonte/menuColocacao.ttf"
 
 
 using namespace Entidades;
