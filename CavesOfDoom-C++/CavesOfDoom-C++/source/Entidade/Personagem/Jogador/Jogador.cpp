@@ -60,8 +60,6 @@ namespace Entidades {
                     const float nivelAtual = std::stoi(atributos[16]);
                     const float experienciaAtual = std::stof(atributos[17]);
                     const bool noChaoAtual = atributos[18] == "1";
-                    const bool colidindoPortaAtual = atributos[19] == "1";
-                    const bool abrirPortaAtual = atributos[20] == "1";
                     const std::string imgAtual = atributos[21];
                     const unsigned int quadroAtual = std::stoi(atributos[22]);
                     const float tempoTotalAtual = std::stof(atributos[23]);
@@ -84,8 +82,6 @@ namespace Entidades {
                     nivel.addExp(experienciaAtual);
                     inicializarNivel();
                     this->noChao = noChaoAtual;
-                    this->colidindoPorta = colidindoPortaAtual;
-                    this->abrirPorta = abrirPortaAtual;
 
                     inicializarAnimacao();
                     inicializarBarraVida();
@@ -159,7 +155,8 @@ namespace Entidades {
 
 
             void Jogador::inicializarAnimacao() {
-                if (jogador2==true) {
+                if (getJogador2() == true) 
+                {
                     const sf::Vector2f origin = sf::Vector2f(tam.x / 2.5f, tam.y / 2.1f);
                     animacao.addAnimacao("imagens/Jogador/RunJogador2.png", "ANDA", 10, 0.12f, sf::Vector2f(6, 2), origin);
                     animacao.addAnimacao("imagens/Jogador/AttackJogador2.png", "ATACA", 10, 0.065f, sf::Vector2f(6, 2), origin);
@@ -409,3 +406,4 @@ namespace Entidades {
     }
 
 }
+
