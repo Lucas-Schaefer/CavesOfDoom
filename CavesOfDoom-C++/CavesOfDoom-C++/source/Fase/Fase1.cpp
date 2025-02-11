@@ -138,6 +138,7 @@ namespace Fase {
         limiteCamera.width = 11 * 500.0f - 50.0f;
         limiteCamera.height = tamJanela.y - 350.0f;
         pGrafico->setLimiteCamera(limiteCamera);
+        int i = rand() % 3 + 1;
 
         criarPlataforma(sf::Vector2f(-550.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
         //chão
