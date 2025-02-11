@@ -175,10 +175,20 @@ namespace Fase {
         criarPlataforma(sf::Vector2f(2300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2500.0f, 300.0f), 5);
         criarPlataforma(sf::Vector2f(2600.0f, 400.0f), sf::Vector2f(80.0f, 50.0f), 300.0f, true);
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
-        
-        criarPlataforma(sf::Vector2f(2980.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
-        criarPlataforma(sf::Vector2f(3300.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
+        if (i == 1) {
+            criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
+            criarPlataforma(sf::Vector2f(2980.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+            criarPlataforma(sf::Vector2f(3300.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
+        }
+        if (i == 2) {
+            criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 4);
+            criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 2);
+            criarEspinho(sf::Vector2f(3480.0f, 175.0f), sf::Vector2f(80.0f, 25.0f));
+        }
+        if (i == 3) {
+        	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3800.0f, 100.0f), 4);
+        	
+        }
         criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3650.0f, 200.0f), 3);
         criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 4);
         criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 2);
