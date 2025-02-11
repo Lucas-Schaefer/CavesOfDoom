@@ -57,8 +57,7 @@ namespace IDs {
         fase1_parte_2, //51
         fase1_parte_3, //52
         espinho, // 53
-        Demonio, // 54
-        Jogador2 // 55
+        Demonio // 54
     };
 
 }
