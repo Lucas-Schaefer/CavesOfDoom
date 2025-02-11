@@ -176,7 +176,6 @@ namespace Fase {
             			std::cout << "Fase::nao foi possivel criar jogador2" << std::endl;
             			exit(1);
             		}
-                    pJogador2->setJogador2(true);
             		personagem = static_cast<Entidades::Entidade*>(pJogador2);
                     arma = static_cast<Entidades::Entidade*>(espadaJogador2);
             	}
