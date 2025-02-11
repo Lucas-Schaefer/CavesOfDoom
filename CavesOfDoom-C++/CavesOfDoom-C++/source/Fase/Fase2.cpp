@@ -113,44 +113,55 @@ namespace Fase {
         limiteCamera.width = 11 * 500.0f - 50.0f;
         limiteCamera.height = tamJanela.y - 350.0f;
         pGrafico->setLimiteCamera(limiteCamera);
-
-        criarPlataforma(sf::Vector2f(-550.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
-        //chão
-        for (int i = -1; i < 11; i++) {
-            criarPlataforma(sf::Vector2f(i * 500.0f, 550.0f), sf::Vector2f(500.0f, 50.0f), "padrao");
-        }
-        criarPlataforma(sf::Vector2f(11 * 500.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
-
-        //plataforma do jogador
-        criarPersonagem(IDs::IDs::jogador, sf::Vector2f(150.0f, 300.0f));
-
-        // teste
-        criarPlataforma(sf::Vector2f(300.0f, 0.0f), sf::Vector2f(80.0f, 50.0f), 400.0f, false);
-
-        //criando espinho
-        criarEspinho(sf::Vector2f(320.0f, 525.0f), sf::Vector2f(80.0f, 25.0f));
-
-        criarPlataforma(sf::Vector2f(0.0f, 400.0f), sf::Vector2f(250.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
-
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(450.0f, 450.0f), 1);
-        criarCaixa(sf::Vector2f(700.0f, 500.0f));
-
-        criarPlataforma(sf::Vector2f(750.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
-        criarPlataforma(sf::Vector2f(750.0f + 300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
-        criarEspinho(sf::Vector2f(1000.0f, 375.0f), sf::Vector2f(80.0f, 25.0f));
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(900.0f, 300.0f), 1);
-        criarPlataforma(sf::Vector2f(1350.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
-
-        criarPlataforma(sf::Vector2f(1350.0f + 80.0f, 200.0f), sf::Vector2f(350.0f, 50.0f), "flutuante_maior", sf::Vector2f(1.0f, 1.2f));
-        criarEspinho(sf::Vector2f(1480.0f, 175.0f), sf::Vector2f(80.0f, 25.0f));
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(1700.0f, 100.0f), 4);
-        criarCaixa(sf::Vector2f(2200.0f, 500.0f));
-        criarPersonagem(IDs::IDs::Demonio, sf::Vector2f(1900.0f, 450.0f), 1);
-
-        criarPlataforma(sf::Vector2f(2300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2500.0f, 300.0f), 5);
-        criarPlataforma(sf::Vector2f(2600.0f, 400.0f), sf::Vector2f(80.0f, 50.0f), 300.0f, true);
-        criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
+	int i = rand() % 3 + 1;
+	
+	criarPlataforma(sf::Vector2f(-550.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
+	//chão
+	for (int i = -1; i < 11; i++) {
+	    criarPlataforma(sf::Vector2f(i * 500.0f, 550.0f), sf::Vector2f(500.0f, 50.0f), "padrao");
+	}
+	criarPlataforma(sf::Vector2f(11 * 500.0f, 100.0f), sf::Vector2f(50.f, 500.0f), "parede");
+	
+	//plataforma do jogador
+	criarPersonagem(IDs::IDs::jogador, sf::Vector2f(150.0f, 300.0f));
+	
+	// teste
+	criarPlataforma(sf::Vector2f(300.0f, 0.0f), sf::Vector2f(80.0f, 50.0f), 400.0f, false);
+	
+	
+	criarPlataforma(sf::Vector2f(0.0f, 400.0f), sf::Vector2f(250.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+	
+	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(450.0f, 450.0f), 1);
+	criarCaixa(sf::Vector2f(700.0f, 500.0f));
+	
+	criarPlataforma(sf::Vector2f(750.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+	criarPlataforma(sf::Vector2f(750.0f + 300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(900.0f, 300.0f), 1);
+	criarPlataforma(sf::Vector2f(1350.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
+	
+	criarPlataforma(sf::Vector2f(1350.0f + 80.0f, 200.0f), sf::Vector2f(350.0f, 50.0f), "flutuante_maior", sf::Vector2f(1.0f, 1.2f));
+	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(1700.0f, 100.0f), 4);
+	criarCaixa(sf::Vector2f(2200.0f, 500.0f));
+	criarPersonagem(IDs::IDs::Demonio, sf::Vector2f(1900.0f, 450.0f), 1);
+	
+	criarPlataforma(sf::Vector2f(2300.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2500.0f, 300.0f), 5);
+	criarPlataforma(sf::Vector2f(2600.0f, 400.0f), sf::Vector2f(80.0f, 50.0f), 300.0f, true);
+	criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
+	
+	if (i == 1) {
+	    criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(2800.0f, 300.0f), 4);
+	    criarPlataforma(sf::Vector2f(2980.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
+	}
+	if (i == 2) {
+	    criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 4);
+	    criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 5);
+	}
+	if (i == 3) {
+	    criarPersonagem(IDs::IDs::Lobo, sf::Vector2f(3800.0f, 100.0f), 4);
+	    criarPersonagem(IDs::IDs::Orc, sf::Vector2f(3600.0f, 450.0f), 6);
+	
+	}
 
         criarPlataforma(sf::Vector2f(2980.0f, 400.0f), sf::Vector2f(300.0f, 10.0f), "madeira", sf::Vector2f(1.0f, 15.2f));
         criarPlataforma(sf::Vector2f(3300.0f, 200.0f), sf::Vector2f(80.0f, 50.0f), 200.0f, false);
