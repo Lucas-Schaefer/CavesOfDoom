@@ -16,7 +16,7 @@ namespace Fase {
     Fase::Fase(const IDs::IDs ID_Fase, const IDs::IDs ID_Fundo) :
         Ente(ID_Fase), fundo(ID_Fundo), listaPersonagens(new Lista::ListaEntidade()), listaObstaculos(new Lista::ListaEntidade()),
         pColisao(new Gerenciador::GerenciadorColisao(listaPersonagens, listaObstaculos)),
-        GArquivo(), tempo(0.0f)
+		GArquivo(), tempo(0.0f), jogador2(false)
     {
         if (listaPersonagens == nullptr || listaObstaculos == nullptr) {
             std::cout << "Fase::nao foi possivel criar lista de entidades na fase" << std::endl;
@@ -410,7 +410,7 @@ namespace Fase {
     }
 
     void Fase::atualizarTempo() {
-        //atualiza posição e o tempo
+        //atualiza posiÃ§Ã£o e o tempo
         tempo += pGrafico->getTempo();
         if (tempo >= 1.0f) {
             tempo = 0.0f;
@@ -506,7 +506,7 @@ namespace Fase {
             atualizarTempo();
             atualizarPontuacao();
 
-            //verifica colisão
+            //verifica colisÃ£o
             pColisao->executar();
         }
         else {
@@ -514,5 +514,7 @@ namespace Fase {
             pJogador = nullptr;
         }
     }
+
+}
 
 }
